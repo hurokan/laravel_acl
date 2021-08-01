@@ -1,0 +1,189 @@
+/*=========================Footer Area Start===========================*/
+
+
+.footer-area {
+    position: relative;
+   padding-top: 120px;
+    background: url(../img/hero/footer-bg.png);
+    background-size: cover;
+    background-position: center;
+
+    .footer-details {
+        position: relative;
+        padding-bottom: 40px;
+
+        h5{
+
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+         color: #FFFFFF;
+         margin-bottom: 65px;
+        }
+
+
+        .f-info {
+            position: relative;
+
+            ul{
+                li{
+                    display: block;
+                    margin: 28px 0;
+                    a{
+                        color: #ffffffbd;
+                    }
+                }
+            }
+        }
+
+        .f-info2 {
+            position: relative;
+            margin-top: 90px;
+
+            p{
+                color: #ffffffeb;
+                margin-bottom: 20px;
+
+                i{
+                    margin-right: 8px;
+                }
+            }
+
+            ul{
+                    li {
+                        height: 33px;
+                        width: 33px;
+                        border-radius: 6px;
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 10px;
+                        transition: .3s ease;
+                        border: 1px solid #fff;
+
+                        &:hover{
+                            background: #FFFFFF;
+                            a{
+                                color: #204498;
+                            }
+                        }
+
+                    a{
+                        color: #ffffff;
+                        font-size: 15px;
+                        transition: .3s ease;
+                        display: block;
+                        padding: 8px;
+
+                    }
+                }
+        }
+    }
+    }
+
+    footer {
+        position: relative;
+        text-align: center;
+
+        p{
+            color: #ffffffbd;
+            font-size: 15px;
+            line-height: 26px;
+            padding: 25px 0px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+
+    }
+
+
+}
+
+
+.footer-area.light {
+    background: url(../img/hero/footer.png);
+    background-size: cover;
+
+    .footer-details {
+
+        h5{
+        color: #27305A;
+        }
+
+
+        .f-info {
+            position: relative;
+
+            ul{
+                li{
+                    a{
+                        color: #4F4F4F;
+                    }
+                }
+            }
+        }
+
+        .f-info2 {
+
+            p{
+                color: #4F4F4F;
+
+            }
+
+            ul{
+                    li {
+                        height: 33px;
+                        width: 33px;
+                        border-radius: 6px;
+                        display: inline-flex;
+                        align-items: center;
+                        color: #ffffff;
+                        justify-content: center;
+                        margin-right: 10px;
+                        transition: .3s ease;
+                        background: #4F4F4F;
+                        border: 0;
+
+                        &:hover{
+                            background: #204498;
+                            a{
+                                color: #ffffff;
+                            }
+                        }
+
+                    a{
+                        color: #ffffff;
+                        font-size: 15px;
+                        transition: .3s ease;
+                        display: block;
+                        padding: 8px;
+
+                    }
+                }
+        }
+    }
+    }
+
+    footer {
+        position: relative;
+        text-align: center;
+
+        p{
+            color: #4F4F4F;
+            font-size: 15px;
+            line-height: 26px;
+            padding: 25px 0px;
+            border-top: 1px solid #4F4F4F;
+        }
+
+
+    }
+
+
+}
+
+
+
+
+
+/*=========================Footer Area End===========================*/

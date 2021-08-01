@@ -1,0 +1,360 @@
+/*========================
+
+Responsive Style
+
+==========================*/
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width\
+
+
+@media  only screen and (max-width: 1900px) {
+
+    .card-content .form-check {
+        width: 100%;
+    }
+
+}
+
+
+
+
+@media  only screen and (max-width: 1800px) {
+    .card-content .c-footer {
+        
+        display: inline-block;
+    }
+    .card-content .c-footer button {
+       
+        margin-top: 20px;
+    }
+
+}
+@media  only screen and (max-width: 1500px) {
+
+    .hero-area .hero-content h1 {
+      
+        max-width: 60%;
+
+    }
+}
+
+@media  only screen and (max-width: 1320px) {
+
+.hero-area .hero-content .service-area .tab-content .apartment-details form .search .btn-1 {
+
+    padding: 14px 17px !important;
+}
+.hero-area .hero-content .service-area .tab-content .apartment-details form .apartment-all-d .sa-details .btn-2 {
+   
+    font-size: 12px;
+}
+.hero-area .hero-content .service-area .tab-content .apartment-details form .input-group .form-control {
+  
+    font-size: 12px;
+}
+.hero-area .hero-content .service-area .tab-content .apartment-details form .apartment-all-d .sa-details h6 {
+
+    font-size: 16px;
+
+}
+.hero-area .hero-content .service-area .tab-content .apartment-details form h6 {
+    font-size: 16px;
+}
+
+.a-card3 {
+    padding: 20px;
+}
+.a-card2 {
+    padding: 20px;
+}
+.a-card {
+    padding: 20px;
+}
+.slider-area .slider-top {
+    width: 45%;
+}
+
+   
+}
+
+@media  only screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+    .sm-mint a .sub-arrow{
+        display: none;
+    }
+
+} //End min 992px to max 1199px
+// Medium devices (tablets, less than 1199px)
+@media  only screen and (min-width: 1199px){ 
+
+  
+    .sm-mint a.has-submenu {
+        padding-right: 28px;
+      }
+
+}
+@media  only screen and (max-width: 1199px) {
+
+    .sm-mint a {
+        padding: 14px 12px;
+    }
+
+    .apartment-details{
+
+        .row{
+            display: block !important;
+
+            .col-md-3 {
+                -ms-flex:unset !important;
+                flex: unset !important;
+                max-width: 100% !important;
+            }
+            .col-md-7 {
+                -ms-flex:unset !important;
+                flex: unset !important;
+                max-width: 100% !important;
+            }
+            .col-md-2 {
+                -ms-flex:unset !important;
+                flex: unset !important;
+                max-width: 100% !important;
+            }
+        }
+    }
+
+    .hero-area .hero-content .service-area .tab-content .apartment-details form .input-group .input-group-text {
+        padding: 7px 8px;
+        margin-bottom: 0;
+        padding-left: 16px;
+        font-size: 24px;
+    }
+    .hero-area .hero-content h1 {
+        max-width: 80%;
+    }
+    .sa-input {
+        margin-bottom: 20px;
+    }
+    .footer-area .footer-details .f-info2 ul li {
+        height: 26px;
+        width: 26px;
+        margin-right: 6px;
+    }
+    .recent-properties .p-slider .single-slide .slide-text p {
+
+        line-height: 20px;
+    }
+
+    
+} // End Max 1199px
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991.90px) {
+
+  
+
+} // End min 767px to max 991px
+
+// Medium devices (tablets, less than 992px)
+@media  only screen and (max-width: 991px){ 
+    
+    h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .sm-mint a {
+        padding: 14px 8px;
+        font-size: 12px !important;
+    }
+    .sm-mint {
+        margin-left: 36px;
+    }
+    .hero-area .hero-content h1 {
+        
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .slider-area .slider-top {
+        width: 70%;
+        margin-bottom: 50px;
+    }
+    .recent-properties .slider-top {
+        width: 70%;
+    }
+
+} /*--Max-width :991px----------*/
+
+// Small devices (landscape phones, less than 868px)
+@media  only screen and (max-width: 845px) {
+ 
+
+
+
+} /*===========Max-width : 867px---------------*/
+
+// Small devices (landscape phones, less than 768px)
+@media  only screen and (max-width: 767px) {
+
+    #main-menu {
+        position: fixed;
+        max-height: 383px;
+        border-bottom: 0;
+        overflow-y: scroll;
+        width: 100%;
+        top: 70px;
+        border-radius: 15px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        left: 0;
+        box-shadow: 0 4px 3px rgba(0, 0, 0, 0.25);
+    }
+
+
+    .sm-mint a {
+        color: rgb(255, 255, 255);
+        padding: 14px 10px;
+        font-size: 12px;
+    }
+
+    .sm-mint {
+        padding: 31px 20px;
+        margin-left: 0px;
+    }
+    .sm-mint a{
+
+        color: #000000 !important;
+        font-size: 16px !important;
+    }
+    .sm li, .sm a {
+        position: relative;
+        text-align: center;
+    }
+
+     .menu-2 {
+        display: none;
+
+        ul#main-menu {
+            
+        display: none;
+        }
+    }
+
+    .hero-area .hero-content .service-area .tab-content .apartment-details form .apartment-all-d {
+        display: block;
+    }
+    .hero-area .hero-content .service-area .tab-content .apartment-details form .apartment-all-d .sa-details {
+
+        width: 100%;
+        margin: 0px 0px;
+    }
+
+    .hero-area .hero-content {
+        padding-top: 150px;
+    }
+    .swiper-slide .content .title {
+        font-size: 16px;
+    }
+    .slider-area {
+        padding: 90px 0;
+    }
+    .recent-properties .slider-top {
+        width: 100%;
+    }
+    .footer-area .footer-details h5 {
+       
+        margin-bottom: 30px;
+    }
+    .footer-area .footer-details .f-info ul li {
+       
+        margin: 15px 0;
+    }
+    .footer-area .footer-details .f-info2 {
+
+        margin-top: 29px;
+    }
+    .footer-area .footer-details .f-info2 p {
+        margin-bottom: 10px;
+    }
+   
+  
+}// ENd max 767px
+
+
+// Extra small devices (portrait phones, less than 575px)
+@media  only screen and (max-width: 575px) { 
+
+.hero-area .hero-content h1 {
+    max-width: 100%;
+}
+.hero-area .hero-content h1 {
+    font-size: 35px;
+    line-height: 45px;
+}
+
+.recent-properties {
+
+    padding: 90px 0;
+
+}
+.slider-area .slider-top {
+    width: 100%;
+}
+
+
+} //End max 575px
+
+
+// Extra small devices (portrait phones, less than 434px)
+@media  only screen and (max-width: 480px) { 
+
+    .slider-area .slider-top h2 {
+        font-size: 30px;
+    }
+
+} // End max 480px
+
+
+// Extra small devices (portrait phones, less than 434px)
+@media  only screen and (max-width: 434px) { 
+
+    .hero-area .hero-content h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .recent-properties .slider-top h2 {
+        font-size: 30px;
+    }
+    .blog h2 {
+        font-size: 30px;
+    }
+    .blog {
+        padding-top: 90px;
+    }
+   
+ } // End max 434px
+
+ 
+// Extra small devices (portrait phones, less than 402px)
+@media  only screen and (max-width: 402px) { 
+
+    
+ } // End max 402px
+
+// Extra small devices (portrait phones, less than 388px)
+@media  only screen and (max-width: 388px) { 
+
+    .hero-area .hero-content h1 {
+        font-size: 25px;
+        line-height: 34px;
+    }
+ }// End max 388px
+
+// Extra small devices (portrait phones, less than 359px)
+@media  only screen and (max-width: 359px) { 
+   
+
+}

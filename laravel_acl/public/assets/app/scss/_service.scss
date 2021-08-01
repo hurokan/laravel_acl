@@ -1,0 +1,200 @@
+/*========================3D Slider Area Start======================*/
+.slider-area {
+
+    padding: 140px 0;
+    background: url(../img/hero/slide.png);
+    background-size: cover;
+    background-position: center;
+
+
+
+   .slider-top {
+
+    position: relative;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+
+    h2 {
+        font-size: 35px;
+        color: #ffffff;
+    }
+    p{
+        color: #ffffffc2;
+        margin-top: 20px;
+    }
+
+   }
+
+   .swiper-pagination {
+    display: none;
+   }
+
+
+}
+.slider-area.light {
+    background: #fff;
+
+
+
+   .slider-top {
+
+
+    h2 {
+       color: #27305A;;
+    }
+    p{
+        color: #4F4F4F;
+    }
+
+   }
+
+   .swiper-pagination {
+    display: none;
+   }
+
+
+}
+
+
+.recent-properties {
+    position: relative;
+    padding: 140px 0;
+    background: url(../img/hero/property-slider.png);
+    background-size: cover;
+    background-position: center;
+
+    .slider-top {
+
+        position: relative;
+        width: 33%;
+        margin: auto;
+        text-align: center;
+    
+        h2 {
+            font-size: 35px;
+            color: #ffffff;
+        }
+        p{
+            color: #ffffffc2;
+            margin-top: 20px;
+        }
+    
+       }
+
+       .p-slider {
+        position: relative;
+        margin-top: 60px;
+
+        button.owl-prev {
+            top: 42%;
+            position: absolute;
+            font-size: 50px !important;
+            left: -25px;
+            color: #fffafa !important;
+            transition: .5s ease;
+
+            &:hover{
+                background: none;
+            }
+        }
+        button.owl-next {
+            top: 42%;
+            position: absolute;
+            font-size: 50px !important;
+            right: -25px;
+            color: #fffafa !important;
+            transition: .5s ease;
+            &:hover{
+                background: none;
+            }
+        }
+
+        .single-slide{
+
+            .slide-img {
+                position: relative;
+
+                &::before{
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background: #000;
+                    opacity: .4;
+                    left: 0;
+                    border-radius: 35px;
+                    transition: .3s ease;
+                    top: 0;
+                }
+
+                &:hover{
+                    &::before{
+                        opacity: 0;
+                    }
+
+                    span{
+                        
+                    opacity: 1;
+                    }
+                }
+
+                span {
+                    position: absolute;
+                    left: 0px;
+                    top: 40px;
+                    opacity: 0;
+                    transition: .3s ease;
+                    padding: 10px 25px;
+                    background: #204498;
+                    border-radius: 0px 5px 5px 0px;
+                    color: #fff;
+                    font-size: 15px;
+                    font-weight: 400;
+                }
+            }
+
+            .slide-text {
+                background: #1b1f2187;
+                border-radius: 3px 3px 25px 23px;
+                position: absolute;
+                bottom: 0px;
+                width: 100%;
+                border-bottom-left-radius: 35px;
+                border-bottom-right-radius: 35px;
+                padding: 11px 35px;
+
+                p{
+                    color: #fff;
+                }
+                small{
+                    color: #fff;
+                    font-weight: 600;
+                }
+            }
+
+        }
+    }
+    
+   
+
+}
+
+.recent-properties.light {
+    background: url(../img/hero/property-slider2.png);
+
+    .slider-top {
+
+    
+        h2 {
+            color: #27305A;
+        }
+        p{
+            color: #4F4F4F;
+        }
+    
+       }
+
+}
+
+/*========================3D Slider Area End======================*/

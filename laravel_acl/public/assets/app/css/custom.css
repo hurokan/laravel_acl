@@ -1,0 +1,207 @@
+.itemList{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:#1B1F21;
+}
+.itemList a,h5{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+}
+.itemList span{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 30px;
+    color: #fff;
+    opacity: 0.9;
+}
+hr{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 0;
+    border-top: 1px solid rgb(255 255 255 / 47%);
+}
+.itemList  ul.occupancy{
+    display: inline-block;
+    border: 1px solid #a7a7a7;
+    padding: 2px 10px;
+}
+.itemList ul li{
+    padding: 0px 8px;
+}
+.itemList ul li a{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+.active a{
+    /*background-color: #759CE0;*/
+    padding: 4px 7px;
+    border-radius: 2px;
+}
+.itemList ul.filterShow li{
+    background: rgba(239, 239, 239, 0.4);
+    box-shadow: 4px 4px 20px rgba(0, 0, 1, 0.1);
+    border-radius: 4px;
+}
+.itemList ul.filterShow li a{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+.itemList ul.filterShow li:last-child{
+    background: transparent;
+    box-shadow: 0px 0px 0px rgba(0, 0, 1, 0.1);
+}
+.itemList .rightFilter label{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+}
+.custom-form-filter{
+    padding: 7px 10px;
+    background-color: #171b1c;
+    color: #fff;
+    margin: 0 20px;
+}
+.delAttr {
+    position: relative;
+    top: -2px;
+}
+.custom_btn {
+    background: linear-gradient(180deg, #4B5898 0%, #3C4982 54.17%, #4B5898 100%);
+    border-radius: 5px;
+    padding: 12px 14px;
+    min-width: 97px;
+    color: #fff;
+}
+.favourit {
+    background: #383838;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 35%;
+    color: #fff;
+    margin: 0 auto;
+    /* border-radius: 5px; */
+}
+.favourit a{
+    margin-top: 0px !important;
+}
+.lingalleryContainer .lingallery .lingallery_thumbnails .lingallery_thumbnails_content .lingallery_thumbnails_content_elem img {
+    width: 90px;
+    height: 90px;
+}
+.bg-gray-dark{
+    background-color: #383838;
+}
+.facility{
+    padding: 20px 0px;
+}
+
+.property_details p {
+    color: #ffffffbd;
+}
+.table td, .table th {
+    padding: 20px 0px;
+    vertical-align: top;
+    border-top: 1px solid #949494;
+}
+.related_items{
+    background-color: #1b1f21;
+}
+.details-btn {
+    display: block;
+}
+.details-btn li{
+    margin-top: 27px;
+}
+.lingalleryContainer .lingallery figure img {
+    height: 100%;
+}
+.lingalleryContainer .lingallery .lingallery_caption {
+    display: none !important;
+}
+.related_items p {
+    color: #000;
+}
+.related_items img.card-img-top {
+    height: 450px;
+}
+/*.light-theme header.header-area.light {*/
+/*    background-color: #F3F3F3;*/
+/*}*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .property-details{
+        padding-top: 20px;
+    }
+    .property-details p{
+        font-size: 18px;
+    }
+    .table td, .table th {
+        padding: .75rem;
+    }
+    .sm-mint ul {
+        background: #f3f3f3;
+    }
+    .swiper-container {
+        height: 100vw;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .abountWhoImage {
+        display: none;
+    }
+    .contact h2, .exclusive h2 {
+        font-size: 32px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1500px) {
+    .hero-area .hero-content {
+        padding-top: 130px !important;
+    }
+    .hero-area .hero-content h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .homepage.service-area {
+        margin-top: 50px;
+    }
+    .linkPage .service-area {
+        margin-top: 120px !important;
+    }
+}

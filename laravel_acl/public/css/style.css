@@ -1,0 +1,1006 @@
+/* =======================================================================
+Template Name: Kedu
+Author:  ThemeStok
+Author URI: http://ThemeStok.Net
+Version: 1.0
+Description: This Template is created for web template   
+--------------------------------------------------------------------------
+ CSS Index
+
+* Default CSS
+* Top Bar CSS
+* Main Manu CSS
+* Banner CSS 
+* Course CSS
+* About CSS
+* Expart CSS
+* Feedback CSS
+* Discount CSS
+* Counter CSS 
+* Blog CSS
+* Footer CSS
+* Copy right CSS
+* Scroll Top CSS
+
+
+
+/* Google Fonts
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto:100,300,400,500,700,900');
+
+/* ==========================================================================
+   Default CSS
+   ========================================================================== */
+
+body {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  background: transparent;
+  line-height: 24px;
+  font-weight: 400;
+  color: #77798a;
+}
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+a {
+  text-decoration: none;
+  border: none;
+  outline: 0;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+a:hover,
+a:focus,
+a:active,
+button:focus {
+  text-decoration: none;
+  border: none;
+  outline: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+ul,
+ol,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
+  color: #373b55;
+  padding: 0;
+  margin: 0;
+}
+h2 {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 600;
+  color: #373b55;
+}
+h3 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #373b55;
+}
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.section-padding {
+  padding: 120px 0px;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.section-title h2 {
+  color: #373b55;
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.section-title p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #77798a;
+  max-width: 650px;
+  margin: 0 auto;
+}
+.section-title-left {
+  text-align: left;
+}
+.s-table {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+.s-tablec {
+  display: table-cell;
+  vertical-align: middle;
+}
+.wh-btn {
+  display: inline-block;
+  background: #423bc9;
+  border: 3px solid #f77e53;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
+  font-size: 14px;
+  padding: 13px 38px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 30px;
+}
+.wh-btn:hover {
+  background: #ff1948;
+  color: #fff;
+  border: 3px solid #f77e53;
+}
+.wh-btn:active,
+.wh-btn:focus {
+  color: #fff;
+  background: #233cd7;
+  border: 3px solid #f77e53;
+}
+.plr-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.pb-0 {
+  padding-bottom: 0px;
+}
+.pl-0 {
+  padding-left: 0px;
+}
+.pr-0 {
+  margin-right: 0px;
+}
+.mb-30 {
+  margin-bottom: 0px;
+}
+.mb-60 {
+  margin-bottom: 0px;
+}
+.mlr-0 {
+  margin-right: 0;
+  margin-left: 0;
+}
+.mb-65 {
+  margin-bottom: 0px;
+}
+.fls:before {
+  margin: 0;
+  font-size: 0px;
+  line-height: 0px;
+  display: inline-block;
+  color: #fff;
+}
+.flm:before {
+  margin: 0;
+  font-size: 0px;
+}
+/* ==========================================================================
+   Top Bar CSS
+   ========================================================================== */
+
+.top-bar {
+  padding: 15px 0px;
+}
+.h2-border {
+  border-bottom: 1px solid #4e5ebc;
+}
+.top-bar-left {
+  text-align: left;
+}
+.top-bar-left li {
+  display: inline-block;
+  margin-right: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+.top-bar-left li span i:before {
+  margin-right: 6px;
+  vertical-align: middle;
+  display: inline-block;
+  color: red;
+  font-size: 15px;
+}
+.top-bar-right {
+  text-align: right;
+}
+.top-bar-right li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.kedu-header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+.top-bar-right li a {
+  color: #fff;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+.top-bar-right li a:hover {
+  color: #aeb3dd;
+}
+.top-bar-left li {
+  color: #fff;
+  font-weight: 500;
+}
+.top-bar-left li:last-child {
+  margin: 0;
+}
+.top-bar-right li:last-child {
+  margin: 0;
+}
+/* ==========================================================================
+   Main Manu CSS
+   ========================================================================== */
+#responsive-menu1 {
+  display: none;
+}
+.logo {
+  padding: 40px 0px;
+  text-align: left;
+}
+.logo a img {
+  width: 130px;
+}
+.menu-right ul {
+  text-align: right;
+}
+.menu-right li {
+  display: inline-block;
+  margin-right: 30px;
+  padding: 45px 0px;
+  position: relative;
+}
+.menu-right ul li:last-child {
+  margin: 0;
+}
+.menu-right ul li a i {
+  margin-left: 2px;
+  vertical-align: middle;
+}
+.menu-right li a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.menu-right li a:hover {
+  color: #FF1948;
+}
+.menu-btn {
+  margin-top: 30px;
+  text-align: right;
+}
+.Kedu-btn {
+  display: inline-block;
+  background: #fff;
+  color: #3749b8;
+  padding: 14px 25px;
+  font-weight: 600;
+  border-radius: 30px 17px 35px 30px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+.Kedu-btn:hover {
+  background: #ff1948;
+  color: #fff;
+}
+.menu-btn a:active,
+.menu-btn a:focus,
+.banner-btn:active,
+.banner-btn:focus {
+  color: #3749b8;
+}
+.is-sticky .main-menu {
+  background: #3A458D;
+}
+/* ==========================================================================
+   Banner CSS 
+   ========================================================================== */
+
+.h2-banner {
+  position: relative;
+  background-color: #3749b8;
+  padding: 288px 0px 160px 0px;
+  background-image: url(img/banner-1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.h2-banner:after {
+  position: absolute;
+  background: rgba(54, 57, 203, 0.6);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  z-index: -1;
+}
+.banner-content {
+  text-align: center;
+}
+.banner-content h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+.banner-content p {
+  color: #fff;
+}
+.banner-btn {
+  background: #fff;
+  color: #3749b8;
+  padding: 15px 39px;
+  font-weight: 600;
+  border-radius: 30px 17px 35px 30px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  margin-top: 35px;
+  display: inline-block;
+}
+.banner-btn:hover {
+  background: #ff1948;
+  color: #fff;
+}
+/* ==========================================================================
+   course css
+   ========================================================================== */
+
+.course-text {
+  border-left: 1px solid #f4f3f1;
+  border-right: 1px solid #f4f3f1;
+  padding: 25px 25px;
+}
+.course-text p {
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+.course-author span {
+  font-size: 14px;
+  font-weight: 400;
+}
+.course-text a {
+  font-weight: 600;
+  color: #000;
+}
+.course-meta {
+  border: 1px solid #f4f3f1;
+  overflow: hidden;
+  padding-bottom: 15px;
+  padding: 20px 25px;
+}
+.course-author {
+  float: left;
+  position: relative;
+  padding-top: 3px;
+  padding-left: 70px;
+}
+.course-avater {
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  margin-top: 5px;
+}
+.course-avater img {
+  overflow: hidden;
+}
+.course-rate {
+  text-align: right;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  line-height: 30px;
+  padding: 16px 0px;
+}
+.course-author h4 {
+  color: #ff1948;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+/* ==========================================================================
+   About css
+   ========================================================================== */
+
+.about-area {
+  background: #f5f6ff;
+}
+.about-img {
+  position: relative;
+}
+.about-img img {
+  border-radius: 10px 10px 139px 10px;
+}
+.about-img:after {
+  position: absolute;
+  content: "";
+  background: rgba(46, 68, 195, 0.62);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 140px 10px;
+  border: 2px solid #ff1948;
+}
+.about-right p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.about-btn {
+  background: #233cd7;
+  color: #fff;
+  padding: 15px 30px;
+  font-weight: 600;
+  border-radius: 30px 17px 35px 30px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  display: inline-block;
+}
+.about-btn:hover {
+  background: #ff1948;
+  color: #fff;
+}
+.video-icon {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  box-sizing: content-box;
+  display: block;
+  width: 32px;
+  height: 44px;
+  border-radius: 50%;
+  padding: 18px 20px 18px 28px;
+}
+.video-icon:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 80px;
+  height: 80px;
+  background: #ff1948;
+  border-radius: 50%;
+  -webkit-animation: pulse-border 1500ms ease-out infinite;
+}
+.video-icon span {
+  display: block;
+  position: relative;
+  z-index: 3;
+  width: 0;
+  height: 0;
+  border-left: 32px solid #fff;
+  border-top: 22px solid transparent;
+  border-bottom: 22px solid transparent;
+}
+/* ==========================================================================
+   Expart css 
+   ========================================================================== */
+
+.expart-title p {
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+.expart-content {
+  position: absolute;
+  background: #3a458d;
+  text-align: center;
+  left: 14px;
+  right: 15px;
+  padding-top: 66px;
+  padding-bottom: 20px;
+  bottom: -1px;
+  -webkit-clip-path: polygon(0 29%, 100% 8%, 100% 99%, 0% 100%);
+  clip-path: polygon(0 29%, 100% 8%, 100% 99%, 0% 100%);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+.expart-content:hover {
+  background: #233cd7;
+}
+.expart-icon li {
+  display: inline-block;
+}
+.expart-content h3 {
+  color: #fff;
+}
+.expart-content h4 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 13px;
+}
+.expart-icon li a {
+  color: #fff;
+  border: 1px solid #565f9c;
+  padding: 3px 10px;
+  margin-top: 10px;
+  display: inline-block;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+.expart-icon li a:hover {
+  background: #fff;
+  color: #233cd7;
+  border: 1px solid #fff;
+}
+/* ==========================================================================
+   Feedback css
+   ========================================================================== */
+
+.feedback-area {
+  background: #f5f6ff;
+}
+.feedback-title p {
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+.feedback-item {
+  text-align: center;
+  border: 1px solid #e0e3ff;
+  padding: 38px 30px;
+  background: #fff;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+.feedback-img img {
+  width: 90px;
+  height: 90px;
+}
+.feedback-item span {
+  font-size: 35px;
+  color: #423bc9;
+}
+.feedback-item p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.feedback-item h3 {
+  color: #423bc9;
+  font-weight: 600;
+}
+.feedback-item h5 {
+  color: #ff1948;
+  margin-bottom: 25px;
+  font-size: 13px;
+  font-weight: 400;
+}
+.feedback-item:hover {
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.1);
+}
+/* ==========================================================================
+   Discount css
+   ========================================================================== */
+
+.flat-discount h2 {
+  color: #233CD7;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+}
+.flat-discount p {
+  margin-top: 30px;
+  margin-bottom: 45px;
+}
+.discount-btn {
+  background: #FF1948;
+  color: #fff;
+  padding: 15px 25px;
+  font-weight: 600;
+  border-radius: 30px 17px 35px 30px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  display: inline-block;
+}
+.discount-btn:hover {
+  background: #233CD7;
+  color: #fff;
+}
+.flat-discount a {
+  margin-right: 15px;
+}
+.discount-form form button {
+  text-align: left;
+  margin-top: 25px;
+  display: inline-block;
+}
+.discount-form h3 {
+  background: #ff1948;
+  margin-bottom: 15px;
+  padding: 20px 0px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+}
+.discount-form {
+  text-align: center;
+  box-shadow: 0px 0px 100px rgba(13, 9, 9, 0.16);
+  padding: 50px 30px;
+}
+.discount-form input {
+  width: 100%;
+  height: 60px;
+  border: 1px solid #e0e3ff;
+  margin-bottom: 15px;
+  padding: 0px 20px;
+}
+.discount-form select {
+  width: 100%;
+  height: 60px;
+  border: 1px solid #e0e3ff;
+  margin-bottom: 10px;
+  padding: 0px 20px;
+}
+.consul-btn {
+  border: none;
+  background: #233CD7;
+  color: #fff;
+  padding: 15px 25px;
+  font-weight: 600;
+  border-radius: 30px 17px 35px 30px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  display: inline-block;
+}
+.consul-btn:hover {
+  background: #FF1948;
+  color: #fff;
+}
+.discount-form {
+  text-align: center;
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.1);
+  padding: 35px 25px;
+}
+/* ==========================================================================
+   Counter css 
+   ========================================================================== */
+
+.counter-area {
+  background: #f5f6ff;
+  text-align: center;
+}
+.counter-item span {
+  font-size: 60px;
+  line-height: 60px;
+  margin-left: 10px;
+  display: inline-block;
+  color: #373B55;
+}
+.counter-item h3 {
+  color: #FF1948;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.counter-item p {
+  font-size: 18px;
+  color: #FF1948;
+  font-weight: 400;
+}
+/*==========================================================================
+   Blog css
+  ========================================================================== */
+
+.blog-title {
+  border-left: 1px solid #f4f3f1;
+  border-right: 1px solid #f4f3f1;
+  padding: 20px 25px;
+}
+.blog-img {
+  overflow: hidden;
+}
+.blog-avater img {
+  border-radius: 50%; 
+}
+.blog-img img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+.blog-img img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.blog-title p {
+  margin-top: 15px;
+  margin-bottom: 1px;
+}
+.blog-author h4 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.blog-author h5 {
+  font-size: 14px;
+}
+.blog-title a h3 {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+.blog-title a h3:hover {
+  color: #233CD7;
+}
+.blog-meta {
+  border: 1px solid #f4f3f1;
+  padding: 20px 25px;
+  padding-bottom: 15px;
+  overflow: hidden;
+}
+.blog-author {
+  float: left;
+  position: relative;
+  padding-top: 3px;
+  padding-left: 70px;
+}
+.blog-avater {
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  margin-top: 6px;
+}
+.blog-review {
+  text-align: right;
+  font-family: 'Poppins', sans-serif;
+  line-height: 30px;
+  padding: 15px 0px;
+}
+.blog-review span {
+  color: #838493;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 3px;
+}
+.blog-review i {
+  font-size: 19px;
+  color: #423bc9;
+}
+/* ==========================================================================
+   Footer css
+========================================================================== */
+
+footer {
+  background-image: url(img/footer-map.png);
+  background-size: cover;
+  background-position: center;
+  background-color: #3a458d;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-repeat: no-repeat;
+}
+.footer-widget h3 {
+  color: #fff;
+  font-weight: 600;
+  line-height: 30px;
+}
+.widget {
+  padding-top: 30px;
+}
+.about-info {
+  color: #fff;
+}
+.footer-icon li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.footer-icon li a {
+  border: 1px solid #5c65a0;
+  color: #fff;
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+  border-radius: 50px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+.footer-icon li a:hover {
+  background-color: #ff1948;
+  color: #fff;
+  border: 1px solid #ff1948;
+}
+.footer-menu li a {
+  color: #fff;
+  font-size: 14px;
+  line-height: 34px;
+  font-family: 'Roboto', sans-serif;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+.footer-menu li a:hover {
+  color: #ff1948;
+}
+.opening-hour li {
+  color: #fff;
+  line-height: 35px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.Subscribe-us input {
+  padding-left: 15px;
+  color: #fff;
+  height: 50px;
+  padding-left: 20px;
+  font-size: 15px;
+  position: relative;
+  border: none;
+  border-radius: 30px;
+  background: #242a3e;
+}
+.Subscribe-us button {
+  position: absolute;
+  height: 50px;
+  border-radius: 30px;
+  width: 135px;
+  font-size: 16px;
+  font-weight: 500;
+  background: #FF1948;
+  border: none;
+  color: #fff;
+  margin-left: -35px;
+}
+.Subscribe-us {
+  margin-top: 30px;
+}
+/* ==========================================================================
+   Copy right css
+   ========================================================================== */
+
+.footer-copy-right {
+  text-align: center;
+  background: #1E2971;
+  padding: 40px 0px;
+}
+.copy-right-content h4 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+}
+.copy-right-content h4 a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+.copy-right-content h4 a:hover {
+  color: #FF1948;
+}
+/* ==========================================================================
+   Scroll Top CSS
+   ========================================================================== */
+
+.scroll-top {
+  background: #FF1948;
+  bottom: 44px;
+  position: fixed;
+  right: 1px;
+  z-index: 9;
+  cursor: pointer;
+  display: none;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  border-radius: 0px 30px 30px 0px;
+}
+.scroll-top span {
+  color: #fff;
+  font-size: 13px;
+  line-height: 23px;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  display: block;
+  padding: 10px 30px;
+}
+.scroll-up:hover {
+  color: #fff;
+}
+/* ==========================================================================
+  Preloader CSS
+   ========================================================================== */
+
+.spinner {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  margin: 100px auto;
+}
+.double-bounce1,
+.double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+.double-bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+@-webkit-keyframes sk-bounce {
+  0%, 100% {
+    -webkit-transform: scale(0.0)
+  }
+  50% {
+    -webkit-transform: scale(1.0)
+  }
+}
+@keyframes sk-bounce {
+  0%, 100% {
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  }
+  50% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+.kedu-loader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #3A458D;
+  z-index: 9999;
+}
+.kedu-loader .spinner {
+  left: 50%;
+  top: 50%;
+  margin-left: -40px;
+  margin-top: -40px;
+}

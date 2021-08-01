@@ -1,0 +1,209 @@
+/*=================== Header Style  Start ====================*/
+
+header.header-area {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 25px 0px;
+    z-index: 9;
+
+    &::before{
+
+        position: absolute;
+        content: '';
+        background: linear-gradient(180deg, #171717 0%, rgba(23, 23, 23, 0.538257) 44.27%, rgba(23, 23, 23, 0) 99.97%, rgba(23, 23, 23, 0.0614567) 99.98%, rgba(23, 23, 23, 0.0364583) 99.99%, rgba(255, 255, 255, 0) 100%);
+        opacity: 0.8;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .logo-wrapper {
+        position: relative;
+
+        img{
+            max-width: unset;
+            width: auto;
+        }
+    }
+
+    .menu-wrapper {
+        ul{
+
+            li{
+                a{
+                    font-family: $primaryFont;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #ffffff;
+                    opacity: .6;
+
+                    &:hover{
+                        opacity: 1;
+                        font-weight: 700;
+                        color: #ffffff;
+                    }
+                }
+
+
+            }
+
+        }
+        .sm-mint {
+            ul{
+                li{
+
+                   &::before{
+                    content: '';
+                    position: absolute;
+                    background: #27305a40;
+                    height: .5px;
+                    width: 100%;
+                    left: 0;
+                    bottom: 0;
+                   }
+
+                   &:last-child{
+                    &::before{
+                      display: none;
+                       }
+                   }
+
+                   a{
+                       padding: 22px;
+                   }
+                }
+            }
+        }
+
+        .menu-2 {
+            position: absolute;
+            right: 0;
+
+            ul{
+
+                li{
+
+                    position: relative;
+
+                    .color-version {
+                        position: absolute;
+                        background: #1B1F21;
+                        border-radius: 3px;
+                        z-index: 6;
+                        padding: 14px 60px;
+                        margin-left: -55px;
+
+                        span {
+                            position: absolute;
+                            left: 15px;
+                            top: 22px;
+                            color: #fff;
+
+                        }
+                        .span2{
+                            right: 13px;
+                            left: unset;
+                            position: absolute;
+                            top: 22px;
+                            color: #fff;
+                        }
+                        .nav-tabs {
+                            position: relative;
+                            background: #ffffff;
+                            width: 61.51px;
+                            height: 30.74px;
+                            border: 0;
+                            border-radius: 15px;
+                            a{
+                                width: 30px;
+                                border: 0;
+                                height: 30px;
+                                border-radius: 50%;
+                                padding: 0;
+                                display: inline-flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+
+                            .nav-link.active {
+                                background: #4E74C1;
+                                color: #fff;
+                            }
+
+
+                        }
+                    }
+                    .color-version.viewCard {
+                        display: none;
+                    }
+
+                    &:last-child{
+                        &::before{
+                            display: none;
+                        }
+                    }
+
+                    &::before{
+                        position: absolute;
+                        content: '';
+                        height: 15px;
+                        width: 1px;
+                        top: 16px;
+                        right: 0;
+                        background: #F5F5F5;
+                    }
+
+                    a{
+                        font-family: $primaryFont;
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #ffffff;
+                        opacity: 1;
+
+                        i{
+                            padding: 0px 6px;
+                        }
+                        .dwon-arrow{
+                            font-size: 12px;
+                        }
+                    }
+
+
+                }
+
+            }
+        }
+    }
+}
+
+header.header-area.light {
+
+    background: url(../img/header-bg.png);
+    background-size: cover;
+
+    &::before{
+        background: none;
+    }
+
+    a{
+        color: #27305A !important;
+    }
+
+}
+
+header.header-area.light .menu-wrapper .menu-2 ul li .color-version .nav-tabs a {
+    color: #ffffff !important;
+}
+header.header-area.light .menu-wrapper .menu-2 ul li::before {
+    position: absolute;
+    content: '';
+    height: 15px;
+    width: 1px;
+    top: 16px;
+    right: 0;
+    background: #27305a;
+}
+/*=================== Header Style  End ====================*/
